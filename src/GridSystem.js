@@ -5,7 +5,7 @@ const GridSystem = () => (
   <Grid divided='vertically'>
     <Grid.Row columns={1}>
       <Grid.Column>
-        <p className="intro">Dasha <br/> Daria</p>
+        <p className="intro">DASHA<br/>(Daria)</p>
       </Grid.Column>
     </Grid.Row>
   </Grid>
