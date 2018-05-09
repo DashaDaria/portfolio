@@ -1,20 +1,26 @@
-.App-header {
-  background-color: #222;
-  height: 50px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-body {
-  margin: 0;
-  padding: 0;
+.App-body {
   font-family: sans-serif;
+  margin: 2%;
+}
+
+.logo {
+  height: 70px;
+  margin: 2%;
+}
+
+.intro {
+  text-align: left;
+  font-size: 50px;
+  font-family: "Arial Black", sans-serif;
+}
+
+.particles {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background-color: #006200; */
+  background: linear-gradient(#86d7b0, #34646c);
+  z-index: -1;
 }
