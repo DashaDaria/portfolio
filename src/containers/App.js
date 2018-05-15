@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import GridSystem from './GridSystem';
 import ddlogo from './ddlogo.png'
 import Particles from 'react-particles-js'
-import { Header } from 'semantic-ui-react'
 import './App.css';
 
 class App extends Component {
@@ -14,7 +12,7 @@ class App extends Component {
         <p className="intro">DASHA<br/>(Daria)</p>
         <h2>"Full Stack Problem Solver"</h2>
         <br/>
-        <GridSystem />
+
         </div>
 
         <Particles
