@@ -1,31 +1,15 @@
 import React, { Component } from 'react';
-import ddlogo from './ddlogo.png'
-import Particles from 'react-particles-js'
-import './App.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Home from './Home';
+import About from './About';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-          <img src={ddlogo} className="logo" alt="logo" />
-        <div className="App-body">
-        <p className="intro">DASHA<br/>(Daria)</p>
-        <h2>"Full Stack Problem Solver"</h2>
-        <br/>
-
-        </div>
-
-        <Particles
-          className="particles"
-          params={{
-            particles: {
-              number: {value: 40}
-            }
-          }}
-        />
-      </div>
-    );
-  }
-}
+const App = () => (
+  <Router>
+    <div>
+      <Route exact path='/' component={Home} />
+      <Route path='/about' component={About} />
+    </div>
+  </Router>
+)
 
 export default App;
