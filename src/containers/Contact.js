@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import './App.css';
 
 
-const About = () => {
+const Contact = () => {
   return(
-    <div>About</div>
+    <div>Contact form</div>
   )
 }
 
-export default About;
+export default Contact;
