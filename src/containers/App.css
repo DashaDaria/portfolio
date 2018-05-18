@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Monoton|Poiret+One');
 @import url('https://fonts.googleapis.com/css?family=Monoton|Poiret+One|Rock+Salt');
 
-.App {
+/* .App {
   text-align: center;
 }
 .h2 {
@@ -23,7 +23,7 @@
   text-align: center;
   font-size: 48px;
   font-family: 'Rock Salt', cursive;
-}
+} */
 
 .particles {
   position: fixed;
@@ -49,6 +49,6 @@ a.active {
   color: green;
 }
 
-body {
+/* body {
   font-family: 'Poiret One', cursive;
-}
+} */

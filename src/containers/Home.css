@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:700');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+
+.App {
+  font-family: 'Oswald', sans-serif;
+  margin: 2%;
+}
+
+.intro {
+  font-size: 72px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+.daria {
+  letter-spacing: 5px;
+  font-variant: small-caps;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.logo {
+  height: 70px;
+}
