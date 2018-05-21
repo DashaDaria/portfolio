@@ -12,18 +12,20 @@ class Home extends Component {
     return (
       <div className="App">
           <img src={ddlogo} className="logo" alt="logo" />
+          <div className="intro-container">
           <p className="intro">DASHA<br/><span className="daria">daria</span></p>
-        <div className="characteristics">
-          <h2>Full Stack Problem Solver</h2>
-          <br/>
-          <h2>integrated content creator</h2>
-            <ProjectCard project="Flonase Sensimist and Focused"/>
-            <ProjectCard project="Trolli and SDCC"/>
-            <ProjectCard project="Dodge and Sharknado"/>
-          <h2>interactive platform developer</h2>
-            <ProjectCard project="Virtual Elevator"/>
-            <ProjectCard project="Pitch or Ditch"/>
-            <ProjectCard project="Workout Buddy"/>
+          <div className="characteristics">
+            <p>[</p>
+            <h2>Full Stack Problem Solver</h2>
+            <p>]</p>
+            </div>
+            <br/><br/><br/><br/>
+            <div className="projects">
+            <h3>integrated content creator</h3>
+              <ProjectCard project="Flonase Sensimist and Focused"/>
+              <ProjectCard project="Trolli and SDCC"/>
+              <ProjectCard project="Dodge and Sharknado"/>
+            </div>
         </div>
 
         <Particles

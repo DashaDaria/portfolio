@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:700');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 
 .App {
   font-family: 'Oswald', sans-serif;
@@ -8,17 +8,27 @@
 }
 
 .intro {
-  font-size: 72px;
+  font-size: 90px;
   margin: 0;
-  padding: 0;
-  line-height: 1;
+  padding-left: 50px;
+  line-height: 0.7;
+  float:left;
 }
 .daria {
-  letter-spacing: 5px;
+  letter-spacing: 20px;
   font-variant: small-caps;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .logo {
   height: 70px;
+  margin-bottom: 10px;
+}
+
+.characteristics {
+}
+
+.projects {
+  display: flex;
+  border: 10px solid mistyrose;
 }
