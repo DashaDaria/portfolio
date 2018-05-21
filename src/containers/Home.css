@@ -6,6 +6,10 @@
   font-family: 'Oswald', sans-serif;
   margin: 2%;
 }
+.intro-container {
+  display: flex;
+  margin-bottom: 2%;
+}
 
 .intro {
   font-size: 90px;
@@ -20,15 +24,33 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-.logo {
+.main-logo {
   height: 70px;
   margin-bottom: 10px;
 }
 
-.characteristics {
+.web-projects {
+  margin-top: 200px;
+  display: flex;
 }
 
-.projects {
+.marketing-projects {
+  margin-top: 20px;
   display: flex;
-  border: 10px solid mistyrose;
+}
+
+.project-category {
+  text-align: center;
+  background-color: white;
+  margin: 0px;
+  margin-right: 0.5%;
+  padding: 10px;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+.logo-tag {
+  height: 40px;
+  padding-top: 20px;
 }

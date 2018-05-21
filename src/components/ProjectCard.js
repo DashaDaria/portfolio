@@ -1,12 +1,11 @@
 import React from 'react';
 import './ProjectCard.css';
-import patrolli from './patrolli.jpg';
 
 
-const ProjectCard = ({project}) => {
+const ProjectCard = ({project, image}) => {
   return(
     <div className="project-container">
-    <img src={patrolli} alt="project" className="image" />
+    <img src={image} alt="project" className="image" />
     <div className="overlay">
       <div className="project-text">
         {project}
