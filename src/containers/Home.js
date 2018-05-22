@@ -35,18 +35,13 @@ class Home extends Component {
     let traitChanger = traits[this.state.traitIdx % traits.length]
     return (
       <div className="App">
-          <img src={ddlogo} className="main-logo" alt="logo" />
         <div className="intro-container">
-            <p className="intro">DASHA DARIA</p>
-            <div className="left-bracket">[</div>
+            <img src={ddlogo} className="main-logo" alt="logo" />
+            <div className="intro">DASHA DARIA </div>
             <div className="quote">{traitChanger}</div>
-            <div className="right-bracket">]</div><br/>
-            <div><button>Contact Me</button></div>
           </div>
 
-
             <div className="projects">
-              <div className="projects-header">PROJECTS</div>
               <ProjectCard project="Virtual Elevator" image={elevator}/>
               <ProjectCard project="Pitch Or Ditch" image={pitch}/>
               <ProjectCard project="Workout Buddy" image={workout}/>
