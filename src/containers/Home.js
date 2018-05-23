@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ddlogo from './ddlogo.png'
-import Particles from 'react-particles-js'
+import ddlogoW from './ddlogoW.png'
 import './App.css';
 import './Home.css';
 import ProjectCard from '../components/ProjectCard';
@@ -50,15 +50,6 @@ class Home extends Component {
               <ProjectCard project="Dodge and Sharknado" image={patrolli}/>
             </div>
 
-
-        <Particles
-          className="particles"
-          params={{
-            particles: {
-              number: {value: 40}
-            }
-          }}
-        />
       </div>
     );
   }

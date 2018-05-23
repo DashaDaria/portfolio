@@ -12,7 +12,7 @@
   flex-direction: column;
   align-items: center;
   height: 100%;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 .main-logo {
   height: 70px;
@@ -23,6 +23,7 @@
   font-size: 70px;
   width: 40%;
   text-align: center;
+  line-height: 1;
 }
 .quote {
   font-size: 30px;
@@ -31,6 +32,8 @@
   color: white;
   padding: 10px;
   background-color: black;
+  border-radius: 2px;
+  margin-top: 1%;
 }
 
 .projects {
@@ -38,10 +41,4 @@
   height: 100%;
   flex-wrap: wrap;
   justify-content: center;
-}
-.projects-header {
-  text-align: center;
-  width: 100%;
-  margin: 1%;
-  font-size: 20px;
 }

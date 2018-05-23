@@ -4,30 +4,26 @@ import Home from './Home';
 import About from './About';
 import Contact from './Contact';
 import './App.css';
+import Particles from 'react-particles-js'
+import NavBar from '../components/NavBar';
 
-
-const isActiveFn = (match, location) => {
-  return match
-}
-
-const Links = () => (
-  <nav>
-    <NavLink exact activeClassName="active" to='/'>Home</NavLink>
-    <NavLink activeStyle={{color: 'green'}} to='/about'> About</NavLink>
-    <NavLink
-      isActive={isActiveFn}
-      activeClassName="active"
-      to='/contact'> Contact</NavLink>
-  </nav>
-)
 
 const App = () => (
   <Router>
     <div>
-      <Links />
+    <NavBar />
       <Route exact path='/' component={Home} />
       <Route path='/about' component={About} />
       <Route path='/contact' component={Contact} />
+
+      <Particles
+        className="particles"
+        params={{
+          particles: {
+            number: {value: 40}
+          }
+        }}
+      />
     </div>
   </Router>
 )

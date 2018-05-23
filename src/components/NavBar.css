@@ -1,0 +1,19 @@
+nav {
+  padding: 1em;
+  text-align: right;
+}
+
+  a {
+    margin: 5px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+  }
+
+  a, a:visited {
+    color: white;
+  }
+
+  a.active {
+    color: green;
+  }
