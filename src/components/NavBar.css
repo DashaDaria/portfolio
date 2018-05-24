@@ -7,7 +7,7 @@ nav {
     margin: 5px;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
+    font-size: 16px;
   }
 
   a, a:visited {
@@ -15,5 +15,5 @@ nav {
   }
 
   a.active {
-    color: green;
+    color: #387523;
   }
