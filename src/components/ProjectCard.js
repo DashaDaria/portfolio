@@ -3,19 +3,37 @@ import './ProjectCard.css';
 import GoIconPack from 'react-icons/lib/go';
 import FaIconPack from 'react-icons/lib/fa'
 import GoChevronRight from 'react-icons/lib/go/chevron-right';
+import GoArrowRight from 'react-icons/lib/go/arrow-right';
 
-const ProjectCard = ({project, image}) => {
+const ProjectCard = ({project,topline, image, link}) => {
   return(
     <div className="project-container">
-    <img src={image} alt="project" className="image" />
-    <div className="overlay">
-      <div className="project-text">
-        {project}
-        <p><button className="details-button">Details <GoChevronRight/></button></p>
-        </div>
+      <div className="content">
+          <div className="content-overlay"></div>
+          <img className="content-image" src={image}/>
+          <div className="content-details fadeIn-left">
+            <h3>{project}</h3>
+            <p>{topline}</p>
+            <p><a className="details-button" value="Details" href={link}>Details <GoArrowRight/></a></p>
+          </div>
       </div>
     </div>
     )
   }
 
 export default ProjectCard;
+
+
+
+
+//
+// <div className="project-container">
+// <img src={image} alt="project" className="image" />
+// <div className="overlay">
+//   <div className="project-text">
+//     <h3>{project}</h3>
+//     <p>{topline}</p>
+//     <p><a className="details-button" href={link}>Details <GoArrowRight/></a></p>
+//     </div>
+//   </div>
+// </div>

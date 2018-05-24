@@ -8,6 +8,11 @@ import patrolli from './patrolli.jpg';
 import elevator from './elevator.jpg';
 import pitch from './pitch.jpg';
 import workout from './workout.jpg';
+import vibelist from './vibelist.jpg';
+import content from './content.jpg';
+import dodge from './dodge.jpg';
+import wedding from './wedding.jpg';
+
 
 const traits =
   ["Full Stack Problem Solver", "Interactive Platform Developer",
@@ -42,12 +47,29 @@ class Home extends Component {
           </div>
 
             <div className="projects">
-              <ProjectCard project="Virtual Elevator" image={elevator}/>
-              <ProjectCard project="Pitch Or Ditch" image={pitch}/>
-              <ProjectCard project="Workout Buddy" image={workout}/>
-              <ProjectCard project="Flonase Sensimist and Focused" image={patrolli}/>
-              <ProjectCard project="Trolli and SDCC" image={patrolli}/>
-              <ProjectCard project="Dodge and Sharknado" image={patrolli}/>
+              <ProjectCard project="Virtual Elevator"
+                topline="Smart elevator built with React" image={elevator} link="https://virtual-elevator.herokuapp.com/"/>
+
+              <ProjectCard project="Pitch Or Ditch"
+                topline="Brainstorming tool built with Rails, React, Redux" image={pitch} link="https://github.com/DashaDaria/pitch-or-ditch-client"/>
+
+              <ProjectCard project="Workout Buddy"
+                topline="Workout tracker built with Ruby-on-Rails and jQuery" image={workout} link="https://workout-buddy-rails.herokuapp.com/"/>
+
+              <ProjectCard project="VibeList"
+                topline="Mobile prototype built for a Hackathon" image={vibelist} link="https://devpost.com/software/vibelist"/>
+
+              <ProjectCard project="Wedding Makeup Site"
+                topline="Desktop and mobile site redesign" image={wedding} link="/about"/>
+
+              <ProjectCard project="Trolli and Comic-Con Live"
+              topline="Integrated sponsorship" image={patrolli} link="/about"/>
+
+              <ProjectCard project="Dodge and Sharknado"
+                topline="Custom content" image={dodge} link="/about"/>
+
+              <ProjectCard project="Content Creation"
+                topline="Custom content" image={content} link="/about"/>
             </div>
 
       </div>
