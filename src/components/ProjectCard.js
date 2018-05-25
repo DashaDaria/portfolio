@@ -1,8 +1,5 @@
 import React from 'react';
 import './ProjectCard.css';
-import GoIconPack from 'react-icons/lib/go';
-import FaIconPack from 'react-icons/lib/fa'
-import GoChevronRight from 'react-icons/lib/go/chevron-right';
 import GoArrowRight from 'react-icons/lib/go/arrow-right';
 
 const ProjectCard = ({project,topline, image, link}) => {
@@ -10,7 +7,7 @@ const ProjectCard = ({project,topline, image, link}) => {
     <div className="project-container">
       <div className="content">
           <div className="content-overlay"></div>
-          <img className="content-image" src={image}/>
+          <img className="content-image" src={image} alt=""/>
           <div className="content-details fadeIn-left">
             <h3>{project}</h3>
             <p>{topline}</p>

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ddlogo from './ddlogo.png'
-import ddlogoW from './ddlogoW.png'
 import './App.css';
 import './Home.css';
 import ProjectCard from '../components/ProjectCard';

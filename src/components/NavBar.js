@@ -9,10 +9,10 @@ import GoMail from 'react-icons/lib/go/mail';
 const NavBar = () => {
   return (
     <nav className="navigation">
-      <NavLink exact activeClassName="active" to='/'><GoHome/></NavLink>
-      <NavLink activeStyle={{color: '#387523'}} to='/about'><GoInfo/></NavLink>
-      <NavLink activeStyle={{color: '#387523'}} to='/contact'><GoMail/></NavLink>
-      <a target="_blank" href="https://github.com/DashaDaria"><GoMarkGithub/></a>
+      <NavLink exact to='/'><GoHome/></NavLink>
+      <NavLink  to='/about'><GoInfo/></NavLink>
+      <a href="mailto:daria.a.nikitina@gmail.com" ><GoMail/></a>
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/DashaDaria"><GoMarkGithub/></a>
     </nav>
   )
 }
