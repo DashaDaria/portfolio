@@ -14,6 +14,28 @@
   height: 100%;
   margin-bottom: 3%;
 }
+
+/*DESKTOP*/
+@media screen and (min-width: 600px){
+  .intro-container{
+    width: 100%;
+  }
+}
+
+/*MOBILE*/
+@media screen and (max-width: 599px){
+  .intro-container{
+    display: block;
+    width: 100%;
+  }
+  .quote {
+    width: 100%;
+  }
+  .intro {
+    width: 100%;
+  }
+}
+
 .main-logo {
   height: 70px;
   margin-bottom: 10px;
