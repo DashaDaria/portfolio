@@ -10,6 +10,7 @@
 .intro-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   height: 100%;
   margin-bottom: 3%;
@@ -20,19 +21,21 @@
   .intro-container{
     width: 100%;
   }
+  .quote {
+    width: 13em;
+  }
 }
 
 /*MOBILE*/
 @media screen and (max-width: 599px){
   .intro-container{
-    display: block;
     width: 100%;
   }
   .quote {
-    width: 100%;
+    width: 90%;
   }
   .intro {
-    width: 100%;
+    margin-bottom: 0.5%;
   }
 }
 
@@ -43,14 +46,12 @@
 
 .intro {
   font-size: 70px;
-  width: 40%;
   text-align: center;
   line-height: 1;
 }
 .quote {
   font-size: 30px;
   text-align: center;
-  width: 33%;
   color: white;
   padding: 10px;
   background-color: black;
