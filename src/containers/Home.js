@@ -59,16 +59,16 @@ class Home extends Component {
                 topline="Mobile prototype built for a Hackathon" image={vibelist} link="https://devpost.com/software/vibelist"/>
 
               <ProjectCard project="Wedding Makeup Site"
-                topline="Desktop and mobile site redesign" image={wedding} link="/about"/>
+                topline="Desktop and mobile site redesign" image={wedding} link="http://www.amandawhite.co.uk/pro-team/"/>
 
               <ProjectCard project="Trolli and Comic-Con Live"
-              topline="Integrated sponsorship" image={patrolli} link="/about"/>
+              topline="Development of a fully integrated sponsorship" image={patrolli} link="https://vimeo.com/271568537"/>
 
               <ProjectCard project="Dodge and Sharknado"
-                topline="Custom content" image={dodge} link="/about"/>
+                topline="Custom content takeover across all media channels" image={dodge} link="http://view.ceros.com/nbcu/sharknado-dodge-main/p/1"/>
 
               <ProjectCard project="Content Creation"
-                topline="Custom content" image={content} link="/about"/>
+                topline="Production of custom brand-centric content" image={content} link="https://drive.google.com/file/d/1ZGu4hsWsjZjdyifvR82zM4uJH3j-zf2q/view?usp=sharing"/>
             </div>
 
       </div>

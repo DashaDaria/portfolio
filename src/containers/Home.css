@@ -6,6 +6,7 @@
 .App {
   font-family: 'Oswald', sans-serif;
   margin: 5px 10px 20px 10px;
+  min-height: calc(100vh - 70px);
 }
 .intro-container {
   display: flex;

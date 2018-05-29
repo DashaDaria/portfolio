@@ -4,8 +4,9 @@ import Home from './Home';
 import About from './About';
 import Contact from './Contact';
 import './App.css';
-import Particles from 'react-particles-js'
+import Particles from 'react-particles-js';
 import NavBar from '../components/NavBar';
+import Footer from '../components/Footer';
 
 
 const App = () => (
@@ -15,6 +16,8 @@ const App = () => (
       <Route exact path='/' component={Home} />
       <Route path='/about' component={About} />
       <Route path='/contact' component={Contact} />
+
+    <Footer />
 
       <Particles
         className="particles"
