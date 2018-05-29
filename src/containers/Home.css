@@ -1,12 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald:700');
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
 
 .App {
-  font-family: 'Oswald', sans-serif;
-  margin: 5px 10px 20px 10px;
-  min-height: calc(100vh - 70px);
+  margin: 5px 10px 10px 10px;
+  min-height: calc(100vh - 150px);
 }
 .intro-container {
   display: flex;
@@ -48,6 +44,7 @@
 .intro {
   font-size: 70px;
   text-align: center;
+  font-weight: 700;
   line-height: 1;
 }
 .quote {
@@ -58,6 +55,7 @@
   background-color: black;
   border-radius: 2px;
   margin-top: 1%;
+  font-weight: 700;
 }
 
 .projects {

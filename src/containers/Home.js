@@ -70,7 +70,6 @@ class Home extends Component {
               <ProjectCard project="Content Creation"
                 topline="Production of custom brand-centric content" image={content} link="https://drive.google.com/file/d/1ZGu4hsWsjZjdyifvR82zM4uJH3j-zf2q/view?usp=sharing"/>
             </div>
-
       </div>
     );
   }

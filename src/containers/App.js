@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Home from './Home';
 import About from '../components/About';
-import Contact from './Contact';
 import './App.css';
 import Particles from 'react-particles-js';
 import NavBar from '../components/NavBar';
@@ -15,9 +14,6 @@ const App = () => (
     <NavBar />
       <Route exact path='/' component={Home} />
       <Route path='/about' component={About} />
-      <Route path='/contact' component={Contact} />
-
-    <Footer />
 
       <Particles
         className="particles"
@@ -27,7 +23,9 @@ const App = () => (
           }
         }}
       />
+      <Footer />
     </div>
+
   </Router>
 )
 
