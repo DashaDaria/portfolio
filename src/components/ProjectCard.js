@@ -2,12 +2,12 @@ import React from 'react';
 import './ProjectCard.css';
 import GoArrowRight from 'react-icons/lib/go/arrow-right';
 
-const ProjectCard = ({project,topline, image, link}) => {
+const ProjectCard = ({project, topline, image, link}) => {
   return(
     <div className="project-container">
-      <div className="content">
+      <div onClick={this.link} className="content">
           <div className="content-overlay"></div>
-          <img className="content-image" src={image} alt=""/>
+          <img  className="content-image" src={image} alt="" onClick={this.link}/>
           <div className="content-details fadeIn-left">
             <h3>{project}</h3>
             <p>{topline}</p>

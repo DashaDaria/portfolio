@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import './Footer.css'
 import FaGithubSquare from 'react-icons/lib/fa/github-square';
 import GoMail from 'react-icons/lib/go/mail';

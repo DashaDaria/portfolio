@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:700');
+
+.about {
+  margin: 1%;
+  display: flex;
+  justify-content: flex-start;
+}
+.about-logo {
+  height: 40px;
+  padding-top: 10px;
+}
+
+.about-intro {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  padding-left: 10px;
+}
