@@ -7,8 +7,8 @@ import GoInfo from 'react-icons/lib/go/info';
 const NavBar = () => {
   return (
     <nav className="navigation">
-      <NavLink exact to='/'><GoHome/></NavLink>
-      <NavLink  to='/about'><GoInfo/></NavLink>
+      <NavLink exact to='/'><GoHome size={25} /></NavLink>
+      <NavLink  to='/about'><GoInfo size={25} /></NavLink>
     </nav>
   )
 }

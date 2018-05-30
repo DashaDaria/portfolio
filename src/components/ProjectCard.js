@@ -19,18 +19,3 @@ const ProjectCard = ({project, topline, image, link}) => {
   }
 
 export default ProjectCard;
-
-
-
-
-//
-// <div className="project-container">
-// <img src={image} alt="project" className="image" />
-// <div className="overlay">
-//   <div className="project-text">
-//     <h3>{project}</h3>
-//     <p>{topline}</p>
-//     <p><a className="details-button" href={link}>Details <GoArrowRight/></a></p>
-//     </div>
-//   </div>
-// </div>
