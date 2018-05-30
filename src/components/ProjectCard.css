@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
+
 
 .project-container {
   position: relative;
@@ -11,10 +13,17 @@
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
-/*DESKTOP*/
-@media screen and (min-width: 1000px){
+/*DESKTOP 1*/
+@media screen and (min-width: 1100px){
   .project-container{
     width: 20%;
+  }
+}
+
+/*DESKTOP 2*/
+@media screen and (max-width: 1099px){
+  .project-container{
+    width: 30%;
   }
 }
 
@@ -86,62 +95,37 @@
   opacity: 1;
 }
 
-.content-details h3{
+.content-details {
   color: #fff;
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
-.content-details p{
+.content-details {
   color: #fff;
-  font-size: 12px;
   margin: 5px;
-  font-family: 'Open Sans', sans-serif;
+}
+.project-title{
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.project-topline {
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 10px;
 }
 
 .fadeIn-left{
   left: 20%;
 }
-/* .content-image {
-  display: block;
-  width: 100%;
-  height: auto;
-} */
-
-/* .overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: black;
-  opacity: 0.8;
-  overflow: hidden;
-  width: 0;
-  height: 100%;
-  transition: .5s ease;
-} */
-
-/* .project-container:hover .overlay {
-  width: 100%;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-} */
-
-/* .project-text {
-  padding: 10px 20px;
-  white-space: nowrap;
-  color: white;
-  font-size: 18px;
-  position: absolute;
-  overflow: scroll;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-} */
 
 .details-button {
   color: #000;
-  border: none;
+  border: solid 1px white;
   border-radius: 2px;
   padding: 5px;
   text-align: center;
@@ -151,7 +135,8 @@
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
 }
 
 .details-button:hover, .details-button:active {
