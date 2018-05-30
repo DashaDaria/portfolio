@@ -56,13 +56,13 @@ class Home extends Component {
                 topline="Workout tracker built with Ruby-on-Rails and jQuery" image={workout} link="https://workout-buddy-rails.herokuapp.com/"/>
 
               <ProjectCard project="VibeList"
-                topline="Mobile prototype built for a Hackathon" image={vibelist} link="https://devpost.com/software/vibelist"/>
+                topline="Mobile prototype that helps users discover new music via local venues, built for a Hackathon" image={vibelist} link="https://devpost.com/software/vibelist"/>
 
               <ProjectCard project="Wedding Makeup Site"
-                topline="Desktop and mobile site redesign" image={wedding} link="http://www.amandawhite.co.uk/pro-team/"/>
+                topline="Desktop and mobile site redesign with focus on responsiveness" image={wedding} link="http://www.amandawhite.co.uk/pro-team/"/>
 
               <ProjectCard project="Trolli and Comic-Con Live"
-              topline="Development of a fully integrated sponsorship" image={patrolli} link="https://vimeo.com/271568537"/>
+              topline="Development of a fully integrated sponsorship that included custom content across all channels" image={patrolli} link="https://vimeo.com/271568537"/>
 
               <ProjectCard project="Dodge and Sharknado"
                 topline="Custom content takeover across all media channels" image={dodge} link="http://view.ceros.com/nbcu/sharknado-dodge-main/p/1"/>

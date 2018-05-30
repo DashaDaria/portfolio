@@ -22,10 +22,10 @@ const About = () => {
       <div className="about-flex">
         <img className="about-img" src={dd} alt=""/>
         <p className="about-content">
-        I am a transitioned media business professional who discovered a new world of inspiration on my journey to becoming a full stack web developer through the <a className="flatiron" target="_blank" rel="noopener noreferrer" href="https://flatironschool.com/">Flatiron School.</a>
-          <br/><br/>I bring over 7 years of experience in advertising campaign management, sponsorship development and strategic digital media planning. I am excited to merge my current knowledge with my programming skills in Ruby on Rails and JavaScript to build innovative tools that contribute to a company’s bottom line. I am currently looking for an opportunity to join a robust team where I can leverage my creative and technical skills.
-          <br/><br/>Technical skills include: <span className="skills"> <GoRuby size={25}/> <IoSocialJavascript size={25} value="ruby"/> <IoSocialCss3 size={25}/> <TiHtml5 size={25}/> <FaGitlab size={25}/> <FaGit size={25}/></span>
-          <br/><a className="about-button" href="mailto:daria.a.nikitina@gmail.com">Reach Out</a>
+        I am a seasoned media business professional who discovered a new world of inspiration on my journey to becoming a full stack web developer through the <a className="flatiron" target="_blank" rel="noopener noreferrer" href="https://flatironschool.com/">Flatiron School</a>. I am passionate about learning code, stepping outside of my comfort zone and facing challenges head on.
+          <br/><br/>I bring +7 years of experience in advertising campaign management, sponsorship development and strategic digital media planning. I am excited to merge my current knowledge with my programming skills in backend and frontend frameworks (my favorite are Ruby-on-Rails and React with Redux) to build innovative tools that contribute to a company’s bottom line. I am currently looking for an opportunity to join a robust team where I can leverage my creative and technical skills.
+          <br/><br/>Technical skills include: <span className="skills"> <GoRuby size={25}/> <IoSocialJavascript size={25} /> <IoSocialCss3 size={25}/> <TiHtml5 size={25}/> <FaGitlab size={25}/> <FaGit size={25}/></span>
+          <br/><a className="about-button" href="mailto:daria.a.nikitina@gmail.com">Connect with me</a>
         </p>
       </div>
   </div>

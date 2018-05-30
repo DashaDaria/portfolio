@@ -34,7 +34,7 @@
 }
 
 .about-img {
-  height: 16em;
+  height: 18.5em;
   border: 2px solid white;
   border-radius: 2px;
   display: block;
@@ -71,7 +71,7 @@
   cursor: pointer;
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 
 .about-button:hover, .about-button:active {

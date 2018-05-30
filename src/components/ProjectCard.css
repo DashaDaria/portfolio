@@ -98,13 +98,9 @@
 .content-details {
   color: #fff;
   margin-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 1px;
 }
 
-.content-details {
-  color: #fff;
-  margin: 5px;
-}
 .project-title{
   font-family: 'Oswald', sans-serif;
   font-size: 18px;
@@ -127,7 +123,7 @@
   color: #000;
   border: solid 1px white;
   border-radius: 2px;
-  padding: 5px;
+  padding: 2px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
