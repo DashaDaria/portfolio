@@ -11,9 +11,12 @@
   }
 }
 
-  a {
+.spacing {
+  margin: 3px;
+}
+  /* a {
     margin: 3px;
-  }
+  } */
 
   a, a:visited {
     color: white;

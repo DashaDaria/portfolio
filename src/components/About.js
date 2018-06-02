@@ -2,7 +2,6 @@ import React from 'react';
 import ddlogo from '../containers/ddlogo.png'
 import './About.css';
 import dd from './dd.jpg'
-import Footer from '../components/Footer';
 import GoRuby from 'react-icons/lib/go/ruby';
 import IoSocialCss3 from 'react-icons/lib/io/social-css3'
 import TiHtml5 from 'react-icons/lib/ti/html5'
